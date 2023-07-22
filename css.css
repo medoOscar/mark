@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
+
+body{
+
+    background-image: linear-gradient(#0009, #0009), url(work-5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.container{
+    width: auto;
+    height: auto;
+    padding: 30px 25px;
+    background-color: #dfdfdf;
+    border-radius: 15px;
+    box-shadow: 0 25px 31px rgb(0,0,0,0.5);
+    text-align: center;
+
+}
+.container h1{
+    font-family: pacifico;
+    font-size: 50px;
+    text-align: center;
+    color: chocolate;
+    
+}
+.container h3 {
+    font-family: "Righteous", cursive;
+    font-size: 25px;
+    line-height: 1.6;
+    color:#b5ac49;
+    }
+
+#btn{
+font-size: 18px;
+font-family: 'PT Sans Caption', sans-serif;
+}
+.label-groub{
+
+font-family: "Righteous", cursive;
+font-size: 18px;
+
+} 
+
+.row .content {
+
+padding: 24px;
+margin: 16px 0;
+}
+
+
+
+.alert {
+display: none;
+}
+
+@media (max-width:567px) {
+.row .content h3 {
+width: 40%;
+}
+
+.contentBody h3 {
+font-size: 18px;
+}
+
+#searchUrl {
+width: 100% !important;
+}
+
+.btn-outline-danger {
+margin-left: 15px;
+}
+}

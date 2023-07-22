@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>js</title>
+<link rel="stylesheet" href="css.css">
+<link rel="stylesheet" href="bootstrap-5.3.0-dist/bootstrap-5.3.0-dist/css/bootstrap.min.css">
+<script src="https://kit.fontawesome.com/67c144844b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+
+
+
+    <div class="container my-5 border-bottom border-dark text-center">
+        <h1 class="pb-4">Bookmarker</h1>
+
+    <div class="contentBody text-center p-5 ">
+        <h3>
+            <i class="fa-solid fa-bookmark"></i>
+            Bookmark your favorite sites
+            <i class="fa-solid fa-bookmark"></i>
+        </h3>
+        <div class="label-groub  d-flex flex-column justify-content-center align-items-md-start">
+        <label id="btn" for="siteName" class=" py-4 fw-bold fs-4"><i class="fa-solid fa-book-bookmark pe-1"></i>Site Name</label>
+        <input type="text" onkeyup="vaildName()" class="form-control" id="siteName" placeholder="Bookmark Name" />
+        <div class="alert alert-danger" id="alertName">
+            Enter Vaild websit Name Start With Capital Letter
+        </div>
+        </div>
+    <div class="label-groub  d-flex flex-column justify-content-center align-items-md-start">
+        <label id="btn" for="siteUrl" class="py-4 fw-bold fs-4"><i class="fa-solid fa-link pe-1"></i>Site Url</label>
+        <input type="text" onkeyup="vaildUrl()" class="form-control" id="siteUrl" placeholder="Bookmark Url" />
+        <div class="alert alert-danger" id="alertUrl">Enter Vaild Url</div>
+        </div>
+        
+        <button class="btn btn-outline-primary mt-5" onclick="addWebsite()">Submit
+</button>
+
+    
+<div class="box mt-5 text-lg-start">
+        <div class="row" id="rowItem">
+
+
+        </div>
+</div>
+    </div>
+    </div>
+
+
+
+
+
+<script src="main.js"></script>   
+<script src="bootstrap-5.3.0-dist/bootstrap-5.3.0-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
